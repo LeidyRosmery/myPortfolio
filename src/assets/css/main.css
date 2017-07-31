@@ -3,10 +3,15 @@ body {
   color: #333;
   background: #310;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.5em !important; }
+
 .title-section {
-  font-size: 2em;
-}
+  font-size: 2em; }
+
+.descripcion {
+  font-size: 1em; }
+
 .color {
   color: #BE2525; }
 
@@ -29,7 +34,8 @@ header {
 .contact,
 .portfolio,
 .skill {
-  background: #fff; }
+  background: #fff;
+  font-size: 1em; }
 
 .bd-right {
   border-right: 2px solid #BE2525; }
@@ -38,7 +44,7 @@ header {
   border-left: 2px solid #BE2525; }
 
 .pd-section {
-  padding-bottom: 3.5em; }
+  padding-bottom: 1.5em; }
 
 hr {
   border-top: 2px solid #BE2525;
